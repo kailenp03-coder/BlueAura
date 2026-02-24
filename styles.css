@@ -2626,3 +2626,36 @@ section#faq .faq-item {
     grid-template-columns: 1fr;
   }
 }
+
+@media (max-width: 768px) {
+  .hero-sub {
+    color: #2b2b4f !important;   /* darker readable text */
+    opacity: 1 !important;
+  }
+}
+
+.hero-premium p {
+  color: #2b2b4f !important;
+  opacity: 1 !important;
+}
+
+@media (max-width: 768px) {
+  .btn.ghost {
+    background: #ffffff !important;
+    color: #5a4ccf !important;
+    border: 1px solid #5a4ccf !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-trust span {
+    color: #4a4a6a !important;
+    opacity: 1 !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-bg {
+    opacity: 0.6;
+  }
+}
