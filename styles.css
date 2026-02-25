@@ -2887,3 +2887,50 @@ section#faq .faq-item {
     font-size: 1rem;
   }
 }
+
+/* =====================================================
+   FAQ – CLEAN SPACING FIX
+===================================================== */
+
+#faq .container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+#faq h2 {
+  margin-bottom: 50px;
+}
+
+#faq .faq-item {
+  padding: 26px 0;
+  border-bottom: 1px solid rgba(94,203,255,0.35);
+}
+
+#faq .faq-question {
+  padding: 0;
+  margin: 0;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#faq .faq-question span:first-child {
+  max-width: 85%;
+}
+
+#faq .faq-icon {
+  font-size: 16px;
+}
+
+#faq .faq-answer {
+  padding-top: 16px;
+}
+
+#faq .faq-answer p {
+  margin: 0;
+  line-height: 1.7;
+  font-size: 0.95rem;
+  color: #4a4a6a;
+}
